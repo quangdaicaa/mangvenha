@@ -1,0 +1,49 @@
+{
+	"editor.unicodeHighlight.nonBasicASCII": false,
+	"security.workspace.trust.untrustedFiles": "newWindow",
+	"workbench.iconTheme": "material-icon-theme",
+	"explorer.confirmDelete": false,
+	"editor.fontSize": 13,
+	"editor.tabSize": 2,
+	"workbench.startupEditor": "none",
+	"explorer.confirmDragAndDrop": false,
+	"[python]": {
+		"editor.formatOnType": true
+	},
+  "material-icon-theme.files.associations": {
+    "*.pyx": "../../icons/cython",
+    "*.so": "Assembly",
+    "main.py": "../../icons/vn",
+    "Main.java": "../../icons/vn",
+    "Main.class": "../../icons/dangcongsan",
+    "*.dock": "Docker",
+    "*.pri": "Key",
+    "*.pub": "Lock",
+    "authorized_keys": "Lock",
+    "MakeProject.sh": "Makefile",
+    "contabo.yml": "Gcp",
+    "inventory.yml": "Gcp"
+  },
+  "material-icon-theme.folders.associations": {
+    "cpp": "../../../../icons/cpp",
+    "go": "../../../../icons/go",
+    "pyx": "../../../../icons/cython",
+    "numpy": "../../../../icons/numpy",
+    "boost": "../../../../icons/boost",
+    "tomcat": "../../../../icons/tomcat",
+    "postgresql": "../../../../icons/postgresql",
+    "nodejs": "node",
+    "ssh": "keys",
+    "cloud": "aws",
+    ".cloud": "aws",
+    ".draft": "mock",
+    ".ansible": "ansible",
+    ".helper": "helper"
+  },
+  "files.associations": {
+    "*.dock": "dockerfile",
+    "hosts": "yaml"
+  },
+  "redhat.telemetry.enabled": true,
+  "python.defaultInterpreterPath": "/usr/bin/python3.11"
+}
