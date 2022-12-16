@@ -1,0 +1,6 @@
+- Postgres
+- Tomcat
+- Nginx
+- Apache
+- uWSGI
+- RabbitMQ

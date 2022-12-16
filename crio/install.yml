@@ -1,0 +1,5 @@
+- name: Install Cri-O
+  hosts: worker
+  tasks:
+  - name: Install
+    script: ~/Desktop/SetupServer/crio/install.sh

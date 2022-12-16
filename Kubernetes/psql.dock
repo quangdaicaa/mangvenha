@@ -1,0 +1,19 @@
+FROM ubuntu:22.04
+
+SHELL ["/usr/bin/bash", "-c"]
+RUN cd ~
+RUN apt update
+
+ENV TZ=Asia/Ho_Chi_Minh
+ARG OS=jammy
+ARG PSQL_KEY=https://www.postgresql.org/media/keys/ACCC4CF8.asc
+ARG PSQL_REPO=http://apt.postgresql.org/pub/repos/apt
+
+RUN apt install -y wget gnupg tzdata
+RUN echo "deb $PSQL_REPO $OS-pgdg main" > /etc/apt/sources.list.d/pgdg.list
+RUN wget --no-check-certificate --quiet -O - $PSQL_KEY | apt-key add -
+RUN apt update
+RUN apt install -y postgresql
+
+EXPOSE 5432
+RUN service postgresql restart
