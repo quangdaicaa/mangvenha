@@ -1,0 +1,20 @@
+all:
+ children:
+    master:
+      hosts:
+        217.76.59.78:
+      vars:
+        ansible_user: root
+        # ansible_password: qAzplm@13579
+    worker:
+      hosts:
+        217.76.56.250:
+      vars:
+        ansible_user: root
+        ansible_password: qAzplm@13579
+    tester:
+      hosts:
+        217.76.56.249
+      vars:
+        ansible_user: root
+        ansible_password: qAzplm@13579
