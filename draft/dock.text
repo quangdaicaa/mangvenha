@@ -1,0 +1,6 @@
+ERROR: The Compose file './docker-compose.yml' is invalid because:
+services.jenkins.ports contains an invalid type, it should be a number, or an object
+services.jenkins.ports contains an invalid type, it should be a number, or an object
+services.geonode.ports contains an invalid type, it should be a number, or an object
+services.geonode.ports contains an invalid type, it should be a number, or an object
+services.jenkins.ports value [':', ':', '50000:50000'] has non-unique elements
