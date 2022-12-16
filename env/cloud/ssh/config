@@ -1,0 +1,19 @@
+Host 217.76.56.249
+  PreferredAuthentications publickey
+  IdentityFile "~/.ssh/key/217.76.56.249.pri"
+
+Host 217.76.56.250
+  PreferredAuthentications publickey
+  IdentityFile "~/.ssh/key/217.76.56.250.pri"
+
+Host 217.76.52.157
+  PreferredAuthentications publickey
+  IdentityFile "~/.ssh/key/217.76.52.157.pri"
+
+Host 217.76.59.78
+  PreferredAuthentications publickey
+  IdentityFile "~/.ssh/key/217.76.59.78.pri"
+
+Host 217.76.59.79
+  PreferredAuthentications publickey
+  IdentityFile "~/.ssh/key/217.76.59.79.pri"
