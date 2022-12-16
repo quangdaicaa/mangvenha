@@ -1,0 +1,40 @@
+control panel:
+  address: https://my.contabo.com
+  username: 102quangnn@gmail.com
+  password: NMKsVK7F4WmzSUdN
+  pass vps: qAzplm@13579
+
+tester:
+  ip: 217.76.56.249
+  ipv6: "2a02:c206:2112:4476:0000:0000:0000:0001/64"
+  vnc.ip: "178.18.240.86:63189"
+  vnc.pass: SUwDFf3v
+  day: 15/12/2022
+
+master:
+  ip: 217.76.56.250
+  ipv6: "2a02:c206:2112:4477:0000:0000:0000:0001/64"
+  vnc.ip: "161.97.159.229:63118"
+  vnc.pass: D9wMsNpe
+  day: 15/12/2022
+
+worker1:
+  ip: 217.76.59.78
+  ipv6: "2a02:c206:2112:5559:0000:0000:0000:0001/64"
+  vnc.ip: "5.182.17.89:63038"
+  vnc.pass: TwZZ6LFt
+  day: 16/12/2022
+
+worker2:
+  ip: 217.76.59.79
+  ipv6: "2a02:c206:2112:5560:0000:0000:0000:0001/64"
+  vnc.ip: "194.163.145.169:63010"
+  vnc.pass: uRjqJ33E
+  day: 16/12/2022
+
+static:
+  ip: 217.76.52.157
+  ipv6: "2a02:c206:2112:2093:0000:0000:0000:0001/64"
+  vnc.ip: "161.97.159.108:63175"
+  vnc.pass: LXk3szVa
+  day: 12/12/2022
