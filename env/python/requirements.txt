@@ -1,0 +1,41 @@
+pip >= 22.2
+wheel >= 0.37.1
+setuptools >= 59.6.0
+numpy >= 1.23.5
+cython >= 0.29.32
+pyyaml >= 6.0
+numexpr >= 2.8.4
+sympy >= 1.11.1
+mpmath >= 1.2.1
+# scipy >= 1.9.3
+
+# opencv-python >= 4.6.0.66
+# numba >= 0.56.4
+# matplotlib
+# pandas
+
+# requests
+# beautifulsoup4
+# selenium
+# googletrans
+# scrapy
+# ansible
+
+# h5py
+# scikit-image
+# seaborn
+# sqlalchemy
+# mysql-connector-python
+# tf2onnx
+# ffmpeg-python
+
+# pydantic
+fastapi
+# twisted
+# django
+uvicorn
+
+# argparse
+# tqdm
+# colorama
+# pyqt5
